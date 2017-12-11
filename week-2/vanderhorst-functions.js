@@ -1,4 +1,4 @@
-var header = require('../header.js'); 
+
 
 // start program
 
@@ -16,20 +16,30 @@ var header = require('../header.js');
 */ 
 
 // function properties go here...
-
+var firstName = "Johnny";
+var lastName = "Vanderhorst";
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; 
+var yyyy = today.getFullYear();
 
 // function 
 function myName() {
-    return "Johnny Vanderhorst";
+    return firstName + " " + lastName;
+    
+}
+
+function dateToday(year, month, day) {
+    return yyyy + '/' + mm + '/' + dd;
     
 }
 
 // output 
 console.log('\n'); 
-
-
-
-
-
+console.log(myName());
+console.log("Exercise 2.3");
+console.log(dateToday());
+console.log('\n');
+console.log("Hello" + " " + (myName()) + "!")
 
 // end program 

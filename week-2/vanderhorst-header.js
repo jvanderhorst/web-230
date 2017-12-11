@@ -1,4 +1,4 @@
-var header = require('../header.js');
+var header = require('../vanderhorst-header.js');
 
 console.log("\nTesting the header.js file's output..."); 
 
