@@ -1,4 +1,4 @@
-
+var header = require('../week-2/vanderhorst-header'); 
 
 // start program
 
@@ -36,6 +36,8 @@ function dateToday(year, month, day) {
 
 // output 
 console.log('\n'); 
+console.log(header.display("Johnny", "Vanderhorst", "Exercise 2.1")); 
+console.log("\n");
 console.log(myName());
 console.log("Exercise 2.3");
 console.log(dateToday());
