@@ -1,4 +1,4 @@
-var header = require('../header.js'); 
+var header = require('../week-2/vanderhorst-header'); 
 
 // start program
 
@@ -33,23 +33,61 @@ var header = require('../header.js');
 
 */ 
 
+console.log('\n');
+console.log(header.display("Johnny", "Vanderhorst", "Exercise 3.4")); 
+console.log('\n');
+
 // test variable
-
-
-
+var testNumber = 5;
+var index = 0;
 
 // for loop
 console.log("-- Displaying for loop --");
-
-
-
+for (var x = 1; x < 11; x++) {
+    if (testNumber === x) {
+        console.log(logMatch(testNumber, x));
+    } else {
+        console.log(logMismatch(testNumber, x));
+    }
+    
+}
 
 // while loop
 console.log("\n-- Displaying while loop --"); 
-
-
-
+while (index < 10) {
+    index++;
+    if (testNumber === index) {
+        console.log(logMatch1(testNumber, index));
+    } else {
+        console.log(logMismatch1(testNumber, index));
+    }
+}
 
 // Reused functions from exercise-3.2.js
+function match() {
+    if (testNumber, x) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
+function logMismatch(testNumber, x) {
+    testNumber != x
+    return testNumber + " " + "does not match" + " " + x + "!";
+}
 
+function logMatch(testNumber, x) {
+    testNumber == x
+    return testNumber + " " + "does match" + " " + x + "!";
+}
+
+function logMismatch1(testNumber, index) {
+    testNumber != index
+    return testNumber + " " + "does not match" + " " + index + "!";
+}
+
+function logMatch1(testNumber, index) {
+    testNumber == index
+    return testNumber + " " + "does match" + " " + index + "!";
+}

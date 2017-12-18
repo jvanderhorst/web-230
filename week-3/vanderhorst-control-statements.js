@@ -15,7 +15,7 @@ var header = require('../week-2/vanderhorst-header');
 */ 
 
 console.log('\n');
-console.log(header.display("Johnny", "Vanderhorst", "Exercise 2.4")); 
+console.log(header.display("Johnny", "Vanderhorst", "Exercise 3.3")); 
 console.log('\n');
 
 // Multiway branch of if statements (replace with a switch statement)
