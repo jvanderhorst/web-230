@@ -1,4 +1,4 @@
-var header = require('../week-2/vanderhorst-header'); 
+var header = require('../vanderhorst-header'); 
 
 // start program
 
