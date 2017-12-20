@@ -4,8 +4,8 @@
 ; Author: Professor Krasso
 ; Date: 25 June 2017
 ; Modified By: Johnny Vanderhorst
-; Description: 
-
+; Description:  This program demonstrates the
+; use of JavaScript arrays
 ;===========================================
 */ 
 
