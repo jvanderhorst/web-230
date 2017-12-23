@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title: Assignment 1.4
+; Title: Assignment 4.2
 ; Author: Professor Krasso
 ; Date: 25 June 2017
 ; Modified By: Johnny Vanderhorst
@@ -39,7 +39,7 @@ function getFruit() {
 // Output from the getFruit() function
 
 console.log(header.display("Johnny", "Vanderhorst", "Exercise 4.2")); 
-console.log('\n');//New line
+console.log('\n');
 getFruit(fruit);
 
 // end program
