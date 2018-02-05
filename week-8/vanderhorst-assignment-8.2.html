@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic HTML</title>
+
+    <link rel="stylesheet" href="../site.css">
+
+</head>
+<body>
+
+<div id="list"></div>
+
+<script>
+    var fruits = [
+        [1, "Oranges"], 
+        [2, "Apples"], 
+        [3, "Pears"], 
+        [4, "Limes"], 
+        [5, "Lemons"]
+    ];
+    var out = "<h2>Shopping List</h2><ul>";
+    for (var x = 0; x < fruits.length; x++) {
+        out += "<li>" + fruits[x] + "</li>";
+    }
+    out += "</ul>";
+    document.getElementById('list').innerHTML = out;
+</script>
+
+</body>
+</html>
